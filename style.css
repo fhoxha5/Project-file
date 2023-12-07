@@ -9,5 +9,35 @@ body {
 }
 
 h1, h2 {
-    font 
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex_space {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    transition: none;
+    cursor: pointer;
+}
+
+.primary-btn {
+    padding: 15px 40px;
+    background: #7fc142;
 }
