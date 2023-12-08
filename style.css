@@ -31,15 +31,16 @@ li {
 
 .logo {
     border: 2px solid #000;
-    border-radius: 5px;
+    border-radius: 100px;      /*------*/
     overflow: hidden;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .logo img {
     width: 100px; 
     height: 100px; 
     display: block; 
-    
   }
 
 button {
@@ -105,6 +106,70 @@ header .navlinks span {
     display: none;
 }
 
+.Regina {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .Regina img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  
+  .home {
+    background-color: #fff; 
+  }
+  
+  .content {
+    position: relative;
+    width: 100%;
+  }
+  
+  .owl-carousel {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .item img {
+    width: 100%; 
+  }
+
+  .fieldsett {
+    border: 5px;
+    border-radius: 5px;
+  }
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menulist {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#menulist li {
+    margin: 0 30px; 
+    justify-content: space-around;
+}
+
+
+
 /*----- login form css ---------*/
 
 
@@ -116,7 +181,7 @@ header .navlinks span {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(Regina-Blu-Hotel-Vlore-Exterior.jpg) no-repeat;
+    background: url(IMG_1095.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
