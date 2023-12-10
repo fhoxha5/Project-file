@@ -75,8 +75,8 @@ header img {
     margin: 20px;
 }
 
-/*  header {
-    /*height: l0vh;
+ /* header {
+    height: l0vh;
     line-height: 10vh;         ========================
 }  */
 
@@ -128,11 +128,6 @@ header .navlinks span {
   .content {
     position: relative;
     width: 100%;
-  }
-  
-  .owl-carousel {
-    display: flex;
-    justify-content: center;
   }
   
   .item {
@@ -284,4 +279,78 @@ header .navlinks span {
 
 .register-link p a:hover {
     text-decoration: underline;
+}
+
+
+/*======================================Register Form-CSS=================================================*/
+.body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(img.15.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.wrapper3 {
+    width: 420px;
+    background: transparent;
+    color: whitesmoke;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    padding: 30px 40px;
+} 
+
+
+.wrapper3 h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper3 .input-box3 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box3 input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid darkslategray;
+    border-radius: 40px;
+    font-size: 16px;
+    color: whitesmoke;
+    padding: 20px 20px 20px 20px;
+}
+
+.input-box3 input {
+    color: whitesmoke;
+}
+
+.input-box3 i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 20px;
+} 
+
+.wrapper3 .btn3 {
+    width: 100%;
+    height: 45px;
+    background: whitesmoke;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0 0 10px darkslategray (0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-box3 input::placeholder {
+    color: white;
 }
