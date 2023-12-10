@@ -163,6 +163,11 @@ header .navlinks span {
     justify-content: space-around;
 }
 
+fieldset .logo {
+    border: none;
+    border-radius: none;
+    
+}
 
 
 /*----- login form css ---------*/
@@ -176,7 +181,7 @@ header .navlinks span {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(IMG_1095.jpg) no-repeat;
+    background: url(img.14.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -288,7 +293,7 @@ header .navlinks span {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img.15.jpg) no-repeat;
+    background: url(img.16.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     
